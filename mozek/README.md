@@ -23,6 +23,7 @@ Potřebujete placený plán Clauda (Pro, Max, Ultra, Team nebo Enterprise).
 | `/mozek:ohlednuti` | Týdenní ohlédnutí: co se udělalo, otázky, úklid. |
 | `/mozek:tip` | Jedna věc, kterou můžete zkusit dál. |
 | `/mozek:zastaveni` | Čtrnáctidenní zastavení s učitelem. |
+| `/mozek:pruzkum <složka>` | Prozkoumá jednu složku a zapíše si o ní přehled. Celý disk neprochází. |
 
 Kdykoli můžete říct „zapamatuj si…“, „míň tipů“, „tipy nechci“ nebo „učitele vypni“.
 
@@ -34,4 +35,6 @@ Hesla, rodná čísla, mzdy a zdravotní údaje si Claude podle pravidel pluginu
 
 ## Stav
 
-Verze 0.1.0, zkušební. Postaveno podle dokumentace, v provozu zatím neověřeno.
+Verze 1.0.0. Texty laděné zkouškou s fiktivními uživateli; v aplikaci Claude Desktop teprve ověřujeme. Změny: [ZMENY.md](ZMENY.md).
+
+V Claude Code: `/plugin install mozek --marketplace mjanostik-spec/aistack-pluginy`
