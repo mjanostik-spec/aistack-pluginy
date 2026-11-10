@@ -1,0 +1,17 @@
+{
+  "name": "aistack",
+  "owner": {
+    "name": "AI Stack",
+    "url": "https://aistack.cz"
+  },
+  "metadata": {
+    "description": "Pluginy AI Stack pro Claude: osobní paměť a učitel práce s AI."
+  },
+  "plugins": [
+    {
+      "name": "mozek",
+      "source": "./mozek",
+      "description": "Osobní paměť na vašem počítači a nenásilný učitel práce s Claudem. Jen textové instrukce, žádný kód."
+    }
+  ]
+}
