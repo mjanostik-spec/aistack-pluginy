@@ -20,6 +20,8 @@ Uživatel chce, abys složku prošel, zmapoval a udělal si o ní poznámky. Vý
 
 Když si nejsi jistý, jestli je cíl dost úzký, zeptej se.
 
+Odmítnutí nesmí být slepá ulička. Řekni jednou větou proč a hned nabídni, co udělat jde: „Celý disk neprocházím, bylo by to pomalé a jsou na něm věci, do kterých mi nic není. Která složka je pro vaši práci nejdůležitější? Tu projdu hned.“ Když je připojená pracovní složka, nabídni rovnou ji.
+
 ## Postup
 
 **Krok 1: jen názvy.** Projdi názvy složek a souborů do hloubky tří úrovní. Nic neotvírej. Ohlas rozsah:
@@ -32,11 +34,16 @@ Když si nejsi jistý, jestli je cíl dost úzký, zeptej se.
 
 Vybírej to, co nejvíc vypoví: nejnovější soubory, přehledy a rejstříky, od každého druhu jeden až dva.
 
-**Krok 3: čtení a zápis.** Po souhlasu čti a průběžně zapisuj do větve `vetve/<nazev>/` (nebo do místní větve, pokud ji uživatel chce):
+Souhlas se čtením a otázku na poznámky přímo ve složce nespojuj do jedné věty. O přehledu v paměti se neptej vůbec, ten si vedeš sám.
+
+**Krok 3: čtení a zápis.** Po souhlasu čti a průběžně zapisuj do přehledu složky `vetve/<nazev>/` (nebo do místních poznámek, pokud je uživatel chce):
 
 - `INDEX.md`: k čemu složka je, jak je uspořádaná, tabulka dokumentů (soubor, co v něm je jednou větou, datum změny souboru, čteno kdy, nebo `nečteno`),
 - lidé, pojmy a termíny, které se opakují, na jejich místa v paměti se zdrojem `soubor <cesta>`,
+- u smluv a podobných dokumentů lhůty a konce platnosti do `terminy.md`,
 - otázky, které průzkum otevřel, do `otazky.md`.
+
+V návrhu čtení i v záznamu soubory jmenuj, nepiš „tři nájmy“.
 
 Neopisuj obsah dokumentů. Výtah je jedna až tři věty.
 

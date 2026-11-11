@@ -17,6 +17,8 @@ Použij, když se uživatel zeptá, co o něm víš, co si pamatuješ, nebo chce
 4. Zeptej se: „Je něco špatně, zastaralé nebo něco chybí?“ Opravy hned zapiš. Starý údaj přeškrtni s datem.
 5. Řekni, že složku `Claude-mozek` si může kdykoli otevřít a číst sám.
 
+Po ukázání nebo smazání nepřidávej žádnou nabídku ani tip. Uživatel si právě ověřuje, jestli ti může věřit.
+
 ## Smazat úplně
 
 Když uživatel chce, aby něco z paměti zmizelo (ne jen opravit):

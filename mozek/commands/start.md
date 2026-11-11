@@ -1,74 +1,64 @@
 ---
-description: Založí osobní paměť (Mozek) krátkým úvodním rozhovorem
+description: Založí osobní paměť (Mozek) a rovnou udělá první práci
 ---
 
 Zakládáš uživateli osobní paměť podle skillu `pamet` a učitele podle skillu `ucitel`. Mluv česky, lidsky a stručně. Vykej, dokud uživatel nezačne tykat; pak tykej ve všem, i v ukázkových větách níže.
 
-Cílem je, aby uživatel do deseti minut dostal první hotovou věc na své práci. Rozhovor je krátký. Co se nedozvíš teď, zjistíš při práci.
+**Nejdřív práce, potom nastavování.** Uživatel má první hotovou věc dostat do pěti minut. Paměť při tom založíš sám a potichu. Co se nedozvíš teď, zjistíš při další práci.
 
-## 1. Co je co (dvě věty)
+## 1. Úvod (tři věty, žádný výklad)
 
-Začni tímto, vlastními slovy:
+Vlastními slovy:
 
-„Projekt je jako šuplík: patří do něj vaše složky a pokyny, jak mám u vás pracovat. Složka Claude-mozek je sešit, do kterého si píšu já, abych příště věděl, na čem děláme. Můžete si ho kdykoli přečíst.“
+„Budu si psát poznámky o tom, na čem spolu děláme, do složky Claude-mozek ve vašem počítači, abyste mi příště nemusel nic vysvětlovat znovu. Můžete si je kdykoli přečíst. Hesla, rodná čísla, čísla účtů, mzdy a zdravotní údaje si nepíšu nikdy; kdyby bylo ještě něco, co nemám zapisovat, řekněte mi to kdykoli.“
+
+A hned jediná otázka: **„Co pro vás mám udělat jako první? A jednou větou, co děláte.“**
+
+Nic dalšího se neptej. Když uživatel rovnou zadá práci, je to odpověď.
 
 ## 2. Složka
 
 Podívej se, jestli je připojená složka `Claude-mozek`.
 
 - Je připojená a prázdná: pokračuj.
-- Je připojená a paměť v ní už je (`PREHLED.md`): nic nepřepisuj. Řekni to a zeptej se, jestli chce uživatel jen doplnit, co chybí.
-- Není připojená: řekni po krocích, co udělat. „V Dokumentech si vytvořte prázdnou složku Claude-mozek. Pak ji přidejte do tohoto projektu vedle své pracovní složky (v nastavení projektu, u složek). Napište mi, až to bude.“ Mozek nikdy nezakládej uvnitř pracovní složky.
+- Je připojená a paměť v ní už je (`PREHLED.md`): nic nepřepisuj. Řekni to a pracuj podle skillu `pamet`.
+- Není připojená: řekni po krocích, co udělat. „V Dokumentech si vytvořte prázdnou složku Claude-mozek. Pak ji přidejte do tohoto projektu vedle své pracovní složky (v nastavení projektu, u složek). Napište mi, až to bude.“ Mozek nikdy nezakládej uvnitř pracovní složky. Mezitím můžeš začít s prací, o kterou žádá.
 
-## 3. Rozhovor: tři otázky
+## 3. Založení (tiše, při práci)
 
-Ptej se po jedné a po každé odpovědi hned zapisuj (viz krok 4), ať nic nezmizí, kdyby uživatel okno zavřel.
+Hned po první odpovědi založ ve složce `Claude-mozek` soubory podle `references/soubory.md` skillu `pamet`, jen ty označené ●, a zapisuj do nich průběžně:
 
-1. Co děláte a pro koho?
-2. Na čem pracujete právě teď, nebo co děláte pořád dokola?
-3. Je něco, co si nemám nikdy zapisovat? (Hesla, rodná čísla, čísla účtů, mzdy a zdravotní údaje nezapisuji nikdy.)
+- `PREHLED.md` (s datem založení), `jak-pracuju.md`, `vlakna.md`, `otazky.md`, `denik/RRRR-MM.md`,
+- `ucitel.md` podle oddílu „Při založení“ v `references/kolo.md` skillu `ucitel`, s datem příštího zastavení (dnes + 14 dní) a plánem `nezjištěno`,
+- `mapa-slozek.md`: projdi pracovní složku jen do hloubky názvů; v záhlaví napiš jednou „sepsáno z názvů“. Soubory, které vypadají citlivě, označ `citlivé, neotvírat bez potřeby` a neotvírej,
+- `REJSTRIK.md` jako poslední.
 
-Pravidla rozhovoru:
-- Stručná odpověď stačí. Nenaléhej.
-- „To je jedno“ je odpověď: zapiš „žádné zvláštní přání“ a neptej se znovu.
-- Když uživatel řekne, že je otázek moc, hned skonči s otázkami a jdi na krok 5. Jeho slova zapiš do `jak-pracuju.md` a ani později nepřidávej „ještě jednu otázku“.
-- Když řekne, že jsou jeho dokumenty důvěrné, nebo pracuje s údaji o dětech, zdraví či platech, řekni jednou větu o zpracování podle `references/citlive.md` skillu `pamet`, dřív než cokoli otevřeš.
-- Styl psaní, formát výstupů a plán Clauda se teď neptej. Zjistíš je, až je budeš potřebovat: formát u prvního dokumentu, plán u prvního tipu.
+Další soubory vzniknou při prvním záznamu. Vzory nekopíruj. Zapisuj jen to, co zaznělo. O zakládání uživateli nic nehlas.
 
-## 4. Založení (průběžně)
+Když uživatel řekl, že jsou jeho dokumenty důvěrné, nebo jeho práce se týká osobních, mzdových či zdravotních údajů, řekni před prvním otevřením souboru jednu větu o zpracování podle `references/citlive.md` skillu `pamet`.
 
-Zakládej ve složce `Claude-mozek` soubory podle `references/soubory.md` skillu `pamet`, jen ty označené ●:
+## 4. První práce
 
-- po první odpovědi `PREHLED.md` a `vlakna.md` (záznam tohoto rozhovoru),
-- po třetí odpovědi `jak-pracuju.md`,
-- pak `REJSTRIK.md`, `otazky.md`, `denik/RRRR-MM.md` s dnešním záznamem a `ucitel.md` podle oddílu „Při založení“ v `references/kolo.md` skillu `ucitel`, rovnou s datem příštího zastavení (dnes + 14 dní).
+Udělej, o co uživatel požádal, podle skillu `pamet`: výsledek do jeho složky ve formátu, ve kterém pracuje, čísla ověřená, rozpory a lhůty řečené. Otázky nutné k zadání polož najednou, nejvýš tři. Co jde odhadnout, odhadni a označ.
 
-Další soubory a složky nezakládej, vzniknou při prvním záznamu. Vzory nekopíruj. Zapisuj jen to, co zaznělo; odpovědi nepřepočítávej a nedomýšlej.
+Když uživatel neví, čím začít, nabídni jednu konkrétní věc podle toho, co vidíš v jeho složce: „Vidím tu faktury za říjen a výpis z banky. Mám je spárovat a vypsat, co chybí?“
 
-## 5. Mapa složek
+Tahle práce se nepočítá jako tip. První týden žádné tipy nedávej.
 
-Projdi připojenou pracovní složku jen do hloubky názvů, obsah nečti a soubory, které vypadají citlivě, neotvírej. Sepiš `mapa-slozek.md`: co kde leží a k čemu to nejspíš je. V záhlaví napiš jednou „sepsáno z názvů, obsah nečten“, a neoznačuj odhadem každý řádek. Citlivě vypadající soubory označ `citlivé, neotvírat bez potřeby`. Do `otazky.md` dej nejvýš jednu nejasnost.
+## 5. Po první práci: jedna věc na třicet vteřin
 
-Když má složka přes třicet dokumentů, poznamenej si to; větev nabídneš po první práci.
+Teprve když uživatel výsledek přijal, řekni mu jedinou věc, kterou musí udělat on:
 
-## 6. Pokyny projektu
-
-Aby paměť fungovala v každém rozhovoru, potřebuje projekt tyto tři věty v pokynech. Sám je tam zapsat neumíš. Ukaž je v bloku ke zkopírování:
+„Poslední věc, zabere půl minuty. Aby mi poznámky fungovaly v každém novém rozhovoru, vložte prosím tyhle tři věty do pokynů tohoto projektu:“
 
 ```
-Na začátku každé práce přečti Claude-mozek/PREHLED.md a Claude-mozek/jak-pracuju.md a řiď se skillem pamet.
+Na začátku každé práce přečti Claude-mozek/PREHLED.md, Claude-mozek/jak-pracuju.md a Claude-mozek/terminy.md a řiď se skillem pamet.
 Během práce průběžně zapisuj do složky Claude-mozek rozhodnutí, opravy, důležitá fakta a otázky.
 Po dokončené práci se řiď skillem ucitel.
 ```
 
-A řekni kam: „Otevřete nastavení tohoto projektu a vložte ty tři věty do pole Instructions (pokyny). Kdyby se pole jmenovalo jinak, napište mi, co tam vidíte, a najdeme ho spolu.“ Název pole neuváděj s jistotou, kterou nemáš. Počkej na potvrzení a řekni, že pokyny začnou platit v příštím novém rozhovoru. Do `PREHLED.md` si poznamenej, jestli je uživatel vložil; když ne, připomeň to jednou příště.
+„Najdete je v nastavení projektu, pole se nejspíš jmenuje Instructions. Kdyby vypadalo jinak, napište mi, co tam vidíte.“
 
-## 7. Shrnutí (tři věty, ještě před prací)
+Název pole neuváděj s jistotou, kterou nemáš. Když uživatel nechce nebo spěchá, nenaléhej: zapiš si na konec `jak-pracuju.md`, že pokyny vložené nejsou, a připomeň to jednou, až příště uvidíš, že by se to hodilo. Když potvrdí, zapiš, že jsou vložené.
 
-- co sis zapsal,
-- že to může kdykoli vidět příkazem `/mozek:co-vis` a jednou za týden nechat srovnat příkazem `/mozek:ohlednuti`,
-- že při první práci po datu zastavení nabídneš pár návrhů, co zkusit dál. Neříkej „ozvu se“; sám se ozvat neumíš.
-
-## 8. První užitek hned
-
-Neskonči založením. Podle toho, na čem uživatel dělá nebo co dělá pořád dokola, nabídni jednu konkrétní věc, kterou uděláte hned teď v jeho složce: „Chcete rovnou ten přehled faktur za říjen?“ Když souhlasí, udělejte ji podle skillu `pamet` (výsledek do jeho složky, ve formátu, ve kterém pracuje). Tahle první práce se nepočítá jako tip a v den založení už žádný tip nedávej.
+Na závěr jedna věta: „Co si píšu, uvidíte kdykoli přes /mozek:co-vis.“ Nic dalšího: žádné shrnutí, žádné otázky, žádné nabídky.

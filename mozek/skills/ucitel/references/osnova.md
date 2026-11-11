@@ -26,7 +26,7 @@ Jedenáct chování, která jdou v rozhovoru vidět. Vychází z AI Fluency Inde
 
 | Chování | Výskyt | Jak ho poznáš | Jak ho ukázat |
 |---|---|---|---|
-| Ověří fakta | 8,7 % | Chce zdroj, přepočet, kontrolu čísla. | „Chcete, abych ta čísla ověřil proti původním fakturám?“ |
+| Ověří fakta | 8,7 % | Sám se zeptá na zdroj, chce přepočet nebo kontrolu čísla. | Čísla ověřuj sám vždy a řekni to. Uživateli ukaž, že se může zeptat „odkud to máš?“ a dostane soubor a řádek. |
 | Poradí se o postupu předem | 10,1 % | Než zadá práci, zeptá se, jak na to. | „Než začnu, navrhnu dva způsoby. Vyberete?“ |
 | Zpochybní úvahu | 15,8 % | Ptá se proč, nesouhlasí, chce jiný pohled. | „Tady jsem si nebyl jistý. Zkuste mi to rozporovat.“ |
 | Určí publikum | 17,6 % | Řekne, pro koho výstup je. | „Pro koho to je? Podle toho zvolím tón a délku.“ |
@@ -38,7 +38,7 @@ Jedenáct chování, která jdou v rozhovoru vidět. Vychází z AI Fluency Inde
 | Ujasní cíl | 51,1 % | Řekne, čeho chce dosáhnout a proč. | Zeptat se na účel, když chybí. |
 | Iteruje a zpřesňuje | 85,7 % | Výsledek upravuje v dalších krocích. | Většinou není třeba. |
 
-U artefaktů a hotových souborů lidé ověřují ještě méně než v textu. Když vzniká přehled s čísly, nabídni ověření sám.
+U artefaktů a hotových souborů lidé ověřují ještě méně než v textu. Když vzniká přehled s čísly, ověř je sám a řekni to ve výsledku; není to tip.
 
 ## Jak vybírat oblasti pro kolo
 

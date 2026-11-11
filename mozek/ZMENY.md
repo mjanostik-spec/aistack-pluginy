@@ -1,5 +1,24 @@
 # Změny pluginu Mozek
 
+## 1.1.0 (2026-11-11)
+
+Cíl: víc užitku a méně vyrušování. Podle druhé zkoušky s deseti fiktivními uživateli.
+
+- **Nejdřív práce, potom nastavování.** Úvod má tři věty a jednu otázku: co pro vás mám udělat jako první. Vložení pokynů do projektu přijde až po první hotové věci, jako jediný úkol na půl minuty.
+- **Stavbu paměti si Claude řídí sám.** Na plán práce, přehled velké složky, rozdělení poznámek a archivaci se už neptá. Ptá se jen na to, co se týká vás: postup nebo skill, poznámky ve vaší sdílené složce, smazání.
+- **Nejvýš jedna věc navíc k odpovědi a dvě za celý rozhovor.** Jedno pořadí pro všechno: termín, otázka, srovnání s návrhy, tip.
+- **Ohlédnutí a zastavení s učitelem se nabízejí jako jedna věc** na pět minut, ne dvě po sobě. Ohlédnutí má nejvýš tři otázky a úklid dělá Claude sám.
+- **První týden žádné tipy,** potom nejvýš dva týdně. Po „ne“ už se Claude neptá, jestli má zastavení vypnout.
+- **Claude ukáže, že navazuje:** na začátku jednou větou řekne, na co navazuje a která vaše pravidla drží.
+- **Odhadne, místo aby se ptal.** Chybějící údaj, který jde odvodit z dřívější práce, použije jako označený odhad a práci dokončí.
+- **Hlídá za vás:** rozpory mezi dokumenty, čísla, která nesedí, a lhůty řekne u výsledku. Čísla ve svém výstupu ověřuje sám.
+- **Vzdálené termíny:** neslibuje, že se ozve. Nabídne připomínku do kalendáře.
+- **Do starých rozhovorů vás posílá jen výjimečně.** Odpovídá z paměti; co nezaznělo, řekne rovnou.
+- **Výstupy pro poslání dál a na mobil jako PDF nebo Word,** ne HTML. Krátké návrhy ukládá do souboru, ať se nehledají v rozhovoru.
+- **Průzkum složky:** odmítnutí celého disku rovnou nabídne, kterou složku projít.
+- **Přesnější paměť:** co navrhl Claude a vy jste přijali, je v paměti odlišené od toho, co jste řekli. Nejistá odpověď otázku neuzavře. Pravidlo jedné zakázky se nestane obecným.
+- **Citlivé údaje:** tři různé reakce podle situace místo jedné strojové věty; upozornění na zpracování jednou, před prvním čtením.
+
 ## 1.0.0 (2026-11-11)
 
 První vydaná verze. Proti zkušební 0.1.0 se změnilo podle zkoušky s deseti fiktivními uživateli:

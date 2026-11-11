@@ -1,6 +1,6 @@
 # Kontrola zdraví paměti
 
-Dělá se při ohlédnutí. Nálezy neopravuj potichu: ukaž krátký seznam a oprav po souhlasu. Drobnosti (překlep, chybějící řádek v rejstříku, rozbitý odkaz) oprav rovnou.
+Dělá se při ohlédnutí. Většinu oprav udělej sám a potichu: rejstřík, odkazy, mapa, odhady, délky, archivace, přehled. Uživatele se ptej jen tam, kde odpověď zná jen on (body 8 až 10), a to nejvýš na tři věci dohromady. Na konci řekni dvěma větami, co jsi uklidil.
 
 1. **Schránka.** Roztřiď `schranka.md` na správná místa a vyprázdni ji.
 2. **Rejstřík.** Každá stránka má řádek v `REJSTRIK.md`, každý řádek vede na existující stránku a neobsahuje čísla, data ani stavy.

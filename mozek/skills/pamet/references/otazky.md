@@ -1,13 +1,18 @@
 # Otázky
 
-Otázky jsou způsob, jak se paměť učí. Claude je sbírá při práci a uzavírá je s uživatelem.
+Otázky jsou způsob, jak se paměť učí. Každá otázka ale stojí uživatele čas. Ptej se málo, ve správnou chvíli a jen na to, co se jinak zjistit nedá.
 
-## Život otázky
+## Než se zeptáš
 
-1. **Vznik.** Narazíš na něco, co nevíš a co by ti příště pomohlo, nebo sis něco jen odvodil.
-2. **Zápis.** Když otázka práci neblokuje, nepřerušuj a zapiš ji do `otazky.md`. Když práci blokuje, zeptej se hned.
-3. **Dotaz.** Po dokončeném kusu práce smíš položit nejvýš dvě nejdůležitější otevřené otázky, pokud je to tvoje „jedna věc navíc“ (viz SKILL.md). Polož je hned u výsledku, ne v samostatné zprávě na konci.
-4. **Uzavření.** Odpověď zapiš jako fakt na správnou stránku a otázku přesuň mezi uzavřené.
+1. **Jde to zjistit?** Soubor, který není citlivý, otevři a podívej se.
+2. **Jde to odhadnout?** Když ano a chyba by nebyla drahá, použij odhad, označ ho a pokračuj. Otázku si zapiš na později.
+3. **Je to nutné k zadání?** Pak se zeptej hned, spolu s ostatními nutnými otázkami (nejvýš tři).
+4. Jinak otázku jen zapiš do `otazky.md` a nepřerušuj.
+
+## Kdy otázku z paměti položit
+
+- Jako „jednu věc navíc“ (viz SKILL.md) polož **jednu** otázku priority A, u výsledku práce, ne v samostatné zprávě.
+- Ostatní počkají na ohlédnutí.
 
 ## Tvar
 
@@ -15,6 +20,7 @@ Otázky jsou způsob, jak se paměť učí. Claude je sbírá při práci a uzav
 ## Otevřené
 - [A] Kdo schvaluje faktury nad 50 tisíc? (vzniklo 2026-11-10; proč: nevím, komu posílat přehled)
 - [B] Je „ŘP“ ředitel provozu? (vzniklo 2026-11-10; odhad ze zápisu z porady; položeno 2026-11-13, odloženo)
+- [B] Platí plán Pro? (vzniklo 2026-11-10; odpověď 2026-11-10 nejistě „myslím Pro“; ověřit při prvním tipu)
 - [A] Kdo připsal do zápisu z 27. 10. řádek s pokynem pro AI? (vzniklo 2026-11-10; čeká na IT od 2026-11-10)
 
 ## Uzavřené
@@ -22,25 +28,26 @@ Otázky jsou způsob, jak se paměť učí. Claude je sbírá při práci a uzav
 - Jaké má příjmení? → Uživatel nechce uvádět. (uzavřeno 2026-11-25)
 ```
 
-- **A**: bez odpovědi budu příště dělat chyby nebo se ptát znovu.
+- **A**: bez odpovědi budu příště dělat chyby.
 - **B**: pomohlo by to, ale práce jde i bez toho.
-- Zajímavosti nezapisuj.
+- Zajímavosti a otázky „co je v souboru X“ nezapisuj.
 
-`vzniklo` je den, kdy sis otázku zapsal; `položeno` den, kdy ses opravdu zeptal. Další poznámky k otevřené otázce piš pod ni jako podřádky s datem.
+`vzniklo` je den, kdy sis otázku zapsal; `položeno` den, kdy ses opravdu zeptal. Poznámky k otevřené otázce piš pod ni jako podřádky s datem. Neptej se sugestivně („…, Pro?“); nech uživatele odpovědět svými slovy.
 
 ## Kdy se neptat
 
-- **Na to, co jde zjistit.** Soubor, který není citlivý, otevři a podívej se. Otázku „co je v souboru X“ nezapisuj.
-- **Podruhé na totéž.** Otázku, kterou uživatel odložil, polož znovu až při ohlédnutí.
-- **Když uživatel v tomto sezení řekl „teď ne“, „později“, „je toho moc“, nebo spěchá.** V tom sezení se už z `otazky.md` neptej. Otázky, které blokují právě dělanou práci, tím nejsou dotčené.
+- **Podruhé na totéž.** Odloženou otázku polož znovu až při ohlédnutí.
+- **Když uživatel v tomto sezení řekl „teď ne“, „později“, „je toho moc“, nebo spěchá.** V tom sezení se z `otazky.md` už neptej. Otázky nutné k právě dělané práci tím nejsou dotčené.
 - **Když si uživatel v `jak-pracuju.md` otázky omezil.** Jeho pravidlo má přednost.
 - **Na osobní údaje, které k práci nepotřebuješ** (příjmení, věk, adresa).
+- **Na minulé výskyty opakovaných termínů.**
 
 ## Odpovědi, které nejsou odpověď
 
-- **„Nevím“, „neřešte to“:** otázku nech otevřenou s poznámkou a datem, v hotové práci označ místo `k doplnění` a nic nedomýšlej. Znovu se ptej až při ohlédnutí.
-- **„Dodám později“:** označ `čeká na uživatele od RRRR-MM-DD` a ptej se až při ohlédnutí.
-- **„To je jedno“:** to odpověď je. Zapiš ji („žádné zvláštní přání“) a otázku uzavři.
+- **Nejistá odpověď** („asi“, „myslím“): zapiš ji s `nejistě`, otázku nech otevřenou s poznámkou, kdy ji ověřit, a údaj nikde neuváděj jako fakt.
+- **„Nevím“, „neřešte to“:** otázku nech otevřenou s datem, v hotové práci použij označený odhad nebo místo `k doplnění`. Znovu se ptej až při ohlédnutí.
+- **„Dodám později“:** `čeká na uživatele od RRRR-MM-DD`; ptej se až při ohlédnutí.
+- **„To je jedno“:** to odpověď je. Zapiš „žádné zvláštní přání“ a otázku uzavři.
 - **Odmítnutí odpovědět:** uzavři s poznámkou `uživatel nechce uvádět` a už se neptej.
 - **Řeší to někdo třetí:** `čeká na <kdo> od RRRR-MM-DD`; neptej se dřív než za 14 dní.
 

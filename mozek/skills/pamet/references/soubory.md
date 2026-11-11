@@ -22,7 +22,7 @@ Při založení vznikají jen soubory označené ●. Ostatní založ až při p
 | `prace/<nazev>.md` | Stránka jedné věci, na které uživatel dělá. | 150 řádků |
 | `prace/<nazev>/plan.md` | Plán větší práce. Viz `stavba.md`. | 150 řádků |
 | `postupy/<nazev>.md` | Opakovaná úloha krok za krokem. | 150 řádků |
-| `vetve/<nazev>/INDEX.md` | Vnořená wiki pro složku s mnoha dokumenty. Viz `stavba.md`. | 150 řádků |
+| `vetve/<nazev>/INDEX.md` | Přehled složky s mnoha dokumenty. Viz `stavba.md`. | 150 řádků |
 | `vzory/` | Jen vzory, které jste s uživatelem upravili nebo nově vytvořili. | |
 | `archiv/RRRR/` | Dokončené práce, staré otázky a vlákna. Čte se jen na vyžádání. | |
 
@@ -31,10 +31,10 @@ Při založení vznikají jen soubory označené ●. Ostatní založ až při p
 ```
 # Přehled
 Horká paměť: to nejdůležitější o uživateli a jeho práci.
-Poslední úprava RRRR-MM-DD · poslední ohlédnutí RRRR-MM-DD (nebo: zatím žádné)
+Založeno RRRR-MM-DD · poslední úprava RRRR-MM-DD · poslední ohlédnutí RRRR-MM-DD (nebo: zatím žádné)
 
 ## Kdo jsem
-(role, firma, s kým pracuje. Žádné hodnocení schopností ani povahy.)
+(role, firma, s kým pracuje. Jméno jen když ho řekl. Žádné hodnocení schopností ani povahy.)
 
 ## Na čem teď dělám
 - [název práce](prace/nazev.md): stav jednou větou. Další krok je na stránce práce.
@@ -49,7 +49,7 @@ Poslední úprava RRRR-MM-DD · poslední ohlédnutí RRRR-MM-DD (nebo: zatím �
 - RRRR-MM-DD: navrhl jsem … (smaž po odpovědi)
 ```
 
-Do přehledu patří jen to, co se používá teď. Hotovou práci z něj odstraň. Co se měsíc nepoužilo, přesuň na stránku nebo do archivu.
+Do přehledu patří jen to, co se používá teď. Hotovou práci z něj odstraň hned, jak se o tom dozvíš. Co se měsíc nepoužilo, přesuň na stránku nebo do archivu. Provozní poznámky (jestli jsou vložené pokyny projektu) do přehledu nepatří; ty dej do `jak-pracuju.md` na konec.
 
 ## terminy.md
 

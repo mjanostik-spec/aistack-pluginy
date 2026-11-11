@@ -9,4 +9,4 @@ Když uživatel k příkazu připsal pokyn, řiď se jím:
 - „novinky“: jen novinky od minulého zastavení, které se týkají jeho práce,
 - „míň tipů“, „tipy nechci“, „vypni“, „zapni“: změň nastavení v `ucitel.md` a potvrď jednou větou.
 
-Mluv česky a krátce, vykej nebo tykej podle `jak-pracuju.md`. Celé zastavení má trvat asi tři minuty.
+Mluv česky a krátce, vykej nebo tykej podle `jak-pracuju.md`. Celé zastavení má trvat asi tři minuty. Po zastavení už v tomto rozhovoru nic dalšího nenabízej.

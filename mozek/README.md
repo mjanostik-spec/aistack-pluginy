@@ -10,7 +10,7 @@ Plugin obsahuje jen textové instrukce. Na vašem počítači nic nespouští a 
 
 1. V aplikaci Claude otevřete Customize, Plugins, Add, Add marketplace, vložte `mjanostik-spec/aistack-pluginy`, zapněte Sync automatically a přidejte plugin Mozek.
 2. V Dokumentech vytvořte složku `Claude-mozek`. V Coworku založte projekt, vyberte svou pracovní složku a přidejte k ní složku `Claude-mozek`.
-3. Napište `/mozek:start` a odpovězte na pár otázek.
+3. Napište `/mozek:start` a řekněte, co potřebujete udělat. Po první hotové věci vložíte tři věty do pokynů projektu.
 
 Potřebujete placený plán Clauda (Pro, Max, Ultra, Team nebo Enterprise).
 
@@ -18,7 +18,7 @@ Potřebujete placený plán Clauda (Pro, Max, Ultra, Team nebo Enterprise).
 
 | Příkaz | Co udělá |
 |---|---|
-| `/mozek:start` | Úvodní rozhovor a založení paměti. |
+| `/mozek:start` | Založí paměť a rovnou udělá první práci. |
 | `/mozek:co-vis` | Ukáže, co si o vás Claude pamatuje, a nechá vás to opravit. |
 | `/mozek:ohlednuti` | Týdenní ohlédnutí: co se udělalo, otázky, úklid. |
 | `/mozek:tip` | Jedna věc, kterou můžete zkusit dál. |
@@ -35,6 +35,6 @@ Hesla, rodná čísla, mzdy a zdravotní údaje si Claude podle pravidel pluginu
 
 ## Stav
 
-Verze 1.0.0. Texty laděné zkouškou s fiktivními uživateli; v aplikaci Claude Desktop teprve ověřujeme. Změny: [ZMENY.md](ZMENY.md).
+Verze 1.1.0. Texty laděné zkouškou s fiktivními uživateli; v aplikaci Claude Desktop teprve ověřujeme. Změny: [ZMENY.md](ZMENY.md).
 
 V Claude Code: `/plugin install mozek --marketplace mjanostik-spec/aistack-pluginy`

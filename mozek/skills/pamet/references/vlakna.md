@@ -1,38 +1,39 @@
-# Index vláken a hledání v dřívějších rozhovorech
+# Index vláken a dřívější rozhovory
 
-Podrobnosti zůstávají v rozhovoru. Do paměti jde jen krátký záznam a odkaz, kde to v rozhovoru najít. Tím paměť zůstává malá.
+Podrobnosti zůstávají v rozhovoru. Do paměti jde krátký záznam a odkaz, kde to v rozhovoru najít. Index je hlavně pro tebe: díky němu víš, co se kdy řešilo. Uživatele do starých rozhovorů posílej jen výjimečně.
 
 ## Záznam ve `vlakna.md`
 
-Založ ho, jakmile je jasné, o čem rozhovor je (nejpozději při druhé odpovědi). Během práce ho doplňuj, nečekej na konec.
+Založ ho, jakmile je jasné, o čem rozhovor je, a pojmenuj ho podle práce, ne podle zakládání paměti. Během práce ho doplňuj.
 
 ```
 ## 2026-11-10 · Uzávěrka říjen (název odhadnut)
 O čem: párování přijatých faktur za říjen, tři chybějící doklady.
 Stránky: prace/uzaverka-rijen.md
 Místa:
-- na začátku, „projdi faktury za říjen a vypiš“: zadání a rozsah
-- asi v polovině, „dobropisy patří do měsíce vystavení“: rozhodnutí o účtování dobropisů
-- ke konci, „Novák to pošle do pátku“: kdo dodá chybějící doklady
+- 1. zpráva, „projdi faktury za říjen a vypiš“: zadání a rozsah
+- 4. zpráva, po otázce na dobropis, „dobropisy patří do měsíce vystavení“: rozhodnutí o účtování dobropisů. Důvod nezazněl.
+- 7. zpráva, „Novák to pošle do pátku“: kdo dodá chybějící doklady
 ```
 
-- **Název vlákna neznáš.** Napiš vlastní výstižný název a připiš `(název odhadnut)`. Uživatele o přejmenování vlákna nežádej a na název se neptej. Když ti název sám řekne, zapiš ho bez poznámky.
-- **Hodiny neznáš,** pokud ti je nedal nástroj nebo uživatel. Piš, kde v rozhovoru místo je: `na začátku`, `asi ve třetině`, `v polovině`, `ke konci`, případně `po <čem>`. Čas nikdy nevymýšlej.
-- **Kotva** je doslovný úryvek čtyř až osmi slov, nejlépe ze zprávy uživatele, podle kterého jde místo najít hledáním v textu. Nic v ní neupravuj a nedoplňuj; když potřebuješ vynechat slovo, vezmi jiný souvislý úsek. Když doslovný úryvek nemáš, místo nezapisuj.
+- **Název vlákna neznáš.** Napiš vlastní a připiš `(název odhadnut)`. Uživatele o přejmenování nežádej a na název se neptej.
+- **Poloha** je pořadí zprávy uživatele od začátku vlákna („4. zpráva“), případně s dovětkem „po <čem>“. Pořadí se nemění, když rozhovor roste. Slova „v polovině“ a „ke konci“ nepoužívej a hodiny nevymýšlej; čas napiš jen tehdy, když ho opravdu vidíš.
+- **Kotva** je doslovný úryvek čtyř až osmi slov ze zprávy uživatele, podle kterého jde místo najít hledáním. Nic v ní neupravuj. Když je odpověď kratší („Může.“), vezmi jako kotvu doslovný konec tvé otázky, na kterou odpovídal, a připiš `→ odpověď: „Může.“`.
 - Kotva nesmí obsahovat citlivý údaj ani jméno osoby, které se takový údaj týká.
+- **Zapiš i to, co nezaznělo**, když by to někdo mohl hledat: „Důvod nezazněl.“, „Cena nepadla.“ Ušetří to hledání naprázdno.
 - Místo zapiš jen tam, kde se něco rozhodlo, dohodlo nebo zjistilo. Tři až osm míst na vlákno stačí.
 - Každé místo, na které odkazuje nějaký záznam v paměti, musí být v seznamu Míst toho vlákna.
 
 ## Když je potřeba něco z dřívějška
 
-1. Najdi záznam ve `vlakna.md` (podle tématu, data nebo stránky) a přečti stránky, na které vede.
-2. Když ti stačí, co je v paměti, odpověz z toho a řekni, odkud to máš.
-3. Když ne a jde o něco, co uživatel ví z hlavy, zeptej se ho jednou větou. To je skoro vždy rychlejší než hledání.
-4. Když máš v tomto sezení nástroj pro hledání v minulých rozhovorech, použij ho: hledej kotvu a datum.
-5. Teprve když jde o podrobnost, kterou uživatel z hlavy neví (číslo, přesné znění, výpočet) a která je pro práci důležitá, požádej ho, ať dřívější rozhovor otevře a místo ti sem vloží. Řekni datum, kde v rozhovoru to je a kotvu k vyhledání, a že to zabere pár minut. Když nechce, pracuj bez toho a řekni, co tím zůstává nejisté.
+1. Přečti, co o tom říká paměť (index a stránky, na které vede), a odpověz z ní. Řekni, odkud to máš.
+2. Když paměť říká, že věc nezazněla nebo je nepotvrzená, řekni to rovnou a zeptej se na ni znovu. Nic nehledej.
+3. Když v paměti nic není, zeptej se uživatele jednou větou; skoro vždy to ví z hlavy.
+4. Když máš v tomto sezení nástroj pro hledání v minulých rozhovorech, použij ho místo uživatele: hledej kotvu a datum.
+5. O otevření starého rozhovoru uživatele požádej jen tehdy, když platí všechno najednou: sám o přesné znění nebo číslo stojí, z hlavy ho neví, v paměti ani v souborech není a index ukazuje místo, kde zaznělo. Řekni datum, pořadí zprávy a kotvu k vyhledání. Když nechce, pracuj bez toho a řekni, co zůstává nejisté.
 6. Když téma v indexu ani v paměti není, řekni to jednou větou a uveď, od kdy paměť vedeš. Nedomýšlej.
 
-Když se ukáže, co v místě opravdu zaznělo (nebo že tam hledaná věc není), zapiš to do paměti, ať se to nehledá podruhé.
+Co se ukáže (i to, že hledaná věc v místě není), zapiš do paměti, ať se to nehledá podruhé.
 
 ## Úklid
 
