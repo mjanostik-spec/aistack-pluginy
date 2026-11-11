@@ -23,7 +23,7 @@ Všechny funkce v tabulce jsou podle dokumentace dostupné na placených plánec
 
 | Funkce | Co uživateli ušetří | Kde ji hledat v aplikaci | Kde číst |
 |---|---|---|---|
-| Cowork: práce se složkou | Claude čte a ukládá soubory přímo ve složce. | záložka Cowork | https://claude.com/docs/cowork/overview.md |
+| Práce se složkou (dříve Cowork) | Claude čte a ukládá soubory přímo ve složce. | rozhovor v projektu, který má připojenou složku | https://claude.com/docs/cowork/overview.md |
 | Hotové soubory | Excel se vzorci, Word, prezentace, PDF jako výsledek. | stačí o ně říct | https://claude.com/docs/cowork/overview.md |
 | Projekty | Oblast práce má vlastní složky a pokyny. | vlevo Projects, tlačítko + | https://claude.com/docs/cowork/guide/projects.md |
 | Artefakty (stránka nebo nástroj) | Přehled či kalkulačka, kterou jde otevřít, upravit větou a poslat dál. | stačí říct „udělej to jako stránku“ | https://support.claude.com (hledej „artifacts“) |
@@ -43,7 +43,8 @@ Poznámky ověřené zkušeností AI Stack:
 
 ## Co platí o souborech a cloudu
 
-- Na plánech Pro, Max a Ultra běží Cowork na serverech Anthropicu a ke složkám v počítači se dostává přes zapnutou aplikaci. Když je aplikace zavřená nebo počítač spí, na složky nedosáhne.
+- Aplikace má od listopadu 2026 dvě podoby. V nové (Pro, Max, Ultra a firmy, které si ji zapnuly) jsou Chat a Cowork sloučené a přepínač Cowork v ní není; zpráva napsaná v projektu s připojenou složkou spustí práci se soubory. Ve starší (část účtů Team a Enterprise) přepínač Chat a Cowork zůstává. Nevíš, kterou uživatel má: říkej „v projektu“, a když se zeptá na Cowork, vysvětli obojí a zeptej se, jestli přepínač u pole pro zprávu vidí.
+- Práce se soubory běží na serverech Anthropicu a ke složkám v počítači se dostává přes zapnutou aplikaci. Když je aplikace zavřená nebo počítač spí, na složky nedosáhne.
 - **Plánovaná úloha, která běží v cloudu, na složky v počítači nedosáhne vůbec.** Hodí se na práci s konektory (pošta, kalendář). Na otázku, jestli úloha poběží nad místní složkou, odpověz, že podle dokumentace ne, a nabídni ověření na odkazu.
 - Obsah souborů, se kterými Claude pracuje, zpracovává Anthropic. Na plánech Pro, Max a Ultra si uživatel může v nastavení (Privacy) vypnout použití rozhovorů k trénování. Na Team a Enterprise platí smlouva firmy; přesné podmínky potvrdí správce účtu. Nic dalšího o ochraně dat netvrď.
 - Do projektu patří úzká pracovní složka, ne celé Dokumenty.

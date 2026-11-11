@@ -24,7 +24,7 @@ Podívej se, jestli je připojená složka `Claude-mozek`.
 
 - Je připojená a prázdná: pokračuj.
 - Je připojená a paměť v ní už je (`PREHLED.md`): nic nepřepisuj. Řekni to a pracuj podle skillu `pamet`.
-- Není připojená: řekni po krocích, co udělat. „V Dokumentech si vytvořte prázdnou složku Claude-mozek. Pak ji přidejte do tohoto projektu vedle své pracovní složky (v nastavení projektu, u složek). Napište mi, až to bude.“ Mozek nikdy nezakládej uvnitř pracovní složky. Mezitím můžeš začít s prací, o kterou žádá.
+- Není připojená: řekni po krocích, co udělat. „V Dokumentech si vytvořte prázdnou složku Claude-mozek. Pak ji přidejte do tohoto projektu vedle své pracovní složky (v nastavení projektu, u složek). Napište mi, až to bude.“ Když rozhovor není v žádném projektu, řekni nejdřív: „Vlevo otevřete Projects, tlačítkem + založte projekt ze složky, ve které pracujete, a napište mi /mozek:start tam.“ Když uživatel vidí u pole pro zprávu přepínač Chat a Cowork, ať zvolí Cowork; v nové podobě aplikace přepínač není a stačí psát v projektu. Mozek nikdy nezakládej uvnitř pracovní složky. Mezitím můžeš začít s prací, o kterou žádá.
 
 ## 3. Založení (tiše, při práci)
 

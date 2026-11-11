@@ -1,6 +1,8 @@
 # Mozek
 
-Osobní paměť na vašem počítači a nenásilný učitel práce s Claudem. Plugin pro Claude Desktop (Cowork) a claude.ai od AI Stack.
+Osobní paměť na vašem počítači a nenásilný učitel práce s Claudem. Plugin pro aplikaci Claude na počítači od AI Stack.
+
+Aplikace má od listopadu 2026 dvě podoby. V nové jsou Chat a Cowork sloučené: přepínač Cowork v ní není a s vašimi složkami Claude pracuje v rozhovoru uvnitř projektu. Ve starší (zatím hlavně na plánu Team) přepínač Chat a Cowork zůstává; tam zvolte Cowork. Plugin funguje v obou.
 
 Claude si ve složce obyčejných textových souborů vede, na čem pracujete, kdo je kdo, co se rozhodlo a co ještě neví. Čím víc s ním pracujete, tím míň mu musíte vysvětlovat. Jednou za 14 dní navrhne dvě až tři věci, které můžete s Claudem zkusit dál.
 
@@ -9,8 +11,8 @@ Plugin obsahuje jen textové instrukce. Na vašem počítači nic nespouští a 
 ## Nastavení
 
 1. V aplikaci Claude otevřete Customize, Plugins, Add, Add marketplace, vložte `mjanostik-spec/aistack-pluginy`, zapněte Sync automatically a přidejte plugin Mozek.
-2. V Dokumentech vytvořte složku `Claude-mozek`. V Coworku založte projekt, vyberte svou pracovní složku a přidejte k ní složku `Claude-mozek`.
-3. Napište `/mozek:start` a řekněte, co potřebujete udělat. Po první hotové věci vložíte tři věty do pokynů projektu.
+2. V Dokumentech vytvořte složku `Claude-mozek`. V aplikaci vlevo otevřete Projects, tlačítkem + založte projekt z existující složky (Use an existing folder), vyberte svou pracovní složku a v nastavení projektu k ní přidejte složku `Claude-mozek`.
+3. V tom projektu napište `/mozek:start` a řekněte, co potřebujete udělat. Po první hotové věci vložíte tři věty do pokynů projektu.
 
 Potřebujete placený plán Clauda (Pro, Max, Ultra, Team nebo Enterprise).
 
@@ -35,6 +37,6 @@ Hesla, rodná čísla, mzdy a zdravotní údaje si Claude podle pravidel pluginu
 
 ## Stav
 
-Verze 1.2.0. Texty laděné zkouškou s fiktivními uživateli; v aplikaci Claude Desktop teprve ověřujeme. Změny: [ZMENY.md](ZMENY.md).
+Verze 1.2.1. Texty laděné zkouškou s fiktivními uživateli; v aplikaci Claude Desktop teprve ověřujeme. Změny: [ZMENY.md](ZMENY.md).
 
 V Claude Code: `/plugin install mozek --marketplace mjanostik-spec/aistack-pluginy`

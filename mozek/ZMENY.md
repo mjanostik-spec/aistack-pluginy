@@ -1,5 +1,9 @@
 # Změny pluginu Mozek
 
+## 1.2.1 (2026-11-11)
+
+- Texty počítají s oběma podobami aplikace: v nové jsou Chat a Cowork sloučené a přepínač Cowork v ní není, ve starší (hlavně Team) zůstává. Návod vede přes Projects.
+
 ## 1.2.0 (2026-11-11)
 
 Doladění podle třetí zkoušky. Tato verze sama plnou zkouškou neprošla, jen kontrolou.

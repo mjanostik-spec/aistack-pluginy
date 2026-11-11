@@ -1,6 +1,6 @@
 # Pluginy AI Stack pro Claude
 
-Tržiště pluginů od [AI Stack](https://aistack.cz) pro Claude Desktop (Cowork), claude.ai a Claude Code.
+Tržiště pluginů od [AI Stack](https://aistack.cz) pro aplikaci Claude na počítači, claude.ai a Claude Code.
 
 | Plugin | Co dělá |
 |---|---|
