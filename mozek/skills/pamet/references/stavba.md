@@ -12,7 +12,7 @@ Uživateli neříkej slova „větev“, „rejstřík“, „atomizace“. Ří
 
 Vzory jsou v `assets/vzory/` tohoto skillu: práce, postup, člověk nebo firma, plán, větev. Práce každého člověka je jiná, takže typy přibývají.
 
-- Každou stránku práce označ v deníku štítkem `[úloha: název]`, vždy stejným pro stejný druh práce.
+- Každou práci označ v deníku štítkem `[úloha: název]`. Štítek pojmenuj druhem práce, ne zakázkou (`cenová nabídka`, ne `nabídka Kobliha`). Před zápisem se podívej na štítky z posledních týdnů a použij existující.
 - Když se stejný štítek objeví podruhé, porovnej obě stránky. Opakují-li volným textem stejné údaje, pro které vzor nemá místo (u reklamace dodavatel, dodací list, lhůta; u nabídky zákazník, platnost, sleva), založ nový typ: vzor do `Claude-mozek/vzory/<typ>.md` s nejvýš šesti oddíly, složku pro typ, a obě stránky do ní převeď.
 - Oddíl, který zůstal třikrát prázdný, ze vzoru vyřaď.
 
@@ -33,7 +33,7 @@ Uzavřené otázky a vlákna starší než čtvrt roku přesuň do `archiv/RRRR/
 
 ## Plán větší práce
 
-Když práce zabere víc než jedno sezení nebo má víc než pět kroků, založ jí složku `prace/<nazev>/` se souborem `plan.md` podle vzoru `assets/vzory/plan.md`. U jednorázové věci na jedno sezení plán nezakládej.
+Plán (`prace/<nazev>/plan.md` podle vzoru `assets/vzory/plan.md`) založ, když má práce zjevně víc než pět kroků, nebo když se k ní uživatel vrátil v druhém sezení. V prvním sezení u běžné práce stačí stránka práce. Práce s plánem nepotřebuje zvláštní stránku práce: cíl, stav i další krok jsou v plánu.
 
 - **Další krok žije jen v plánu.** Stránka práce, pokud existuje, nese cíl a odkaz na plán; `PREHLED.md` jednu větu o stavu.
 - Každé sezení na té práci začni přečtením plánu a řekni jednou větou, kde jste skončili.
@@ -45,7 +45,7 @@ Když práce zabere víc než jedno sezení nebo má víc než pět kroků, zalo
 
 Složce s víc než třiceti dokumenty založ `vetve/<nazev>/INDEX.md` podle vzoru `assets/vzory/vetev.md`: k čemu složka je, jak je uspořádaná, řádek o každém dokumentu nebo skupině, kterou už znáš.
 
-- Stav ho z toho, co při práci opravdu čteš. Kvůli přehledu nečti nic navíc; celou složku procházej jen na žádost a podle `pruzkum.md`.
+- Stav ho z toho, co při práci opravdu čteš. Kvůli přehledu nečti nic navíc a nic nečti podruhé jen proto, že ho zapisuješ; celou složku procházej jen na žádost a podle `pruzkum.md`.
 - Po založení nech v `mapa-slozek.md` o složce jediný řádek s odkazem.
 - Do přehledu patří výtahy a odkazy, nikdy kopie dokumentů. U smluv a podobných dokumentů zapiš i jejich lhůty do `terminy.md`.
 - U každého výtahu uveď cestu, **datum změny souboru na disku** (když ho nezjistíš, `neznámé`) a datum čtení. Když je soubor novější než tvoje čtení, přečti ho znovu a řekni, co se změnilo. Když uživatel řekne, že data změny nejsou spolehlivá (synchronizace), zapiš to do přehledu a důležité soubory před použitím ověřuj obsahem.
@@ -64,6 +64,7 @@ Výchozí je přehled v mozku. Přímo ve složce (`<složka>/_mozek/INDEX.md` a
 
 ## Postup a vlastní skill
 
-- Opakování počítej jen z řádků deníku se stejným štítkem `[úloha: název]`. Když uživatel sám řekne, pokolikáté to dělá, věř jemu.
+- Opakování počítej podle dnů, ve kterých se v deníku objevil stejný štítek `[úloha: název]`. Když uživatel sám řekne, pokolikáté to dělá, věř jemu.
+- Do postupu patří, jak se úloha dělá, ne stav jednotlivých případů.
 - Při třetím opakování si poznamenej do `PREHLED.md` pod „Čeká na souhlas“, že úloha zaslouží postup, a nabídni ho jako tip (podle pravidel učitele) nebo při ohlédnutí: „Tohle děláme potřetí. Mám si sepsat postup, ať je to příště rychlejší a stejné?“ Postup napiš až po „ano“.
 - Postup použitý pětkrát nabídni převést na vlastní skill uživatele nebo na plánovanou úlohu a jednou větou řekni, co tím získá.

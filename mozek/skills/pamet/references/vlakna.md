@@ -30,7 +30,7 @@ Místa:
 2. Když paměť říká, že věc nezazněla nebo je nepotvrzená, řekni to rovnou a zeptej se na ni znovu. Nic nehledej.
 3. Když v paměti nic není, zeptej se uživatele jednou větou; skoro vždy to ví z hlavy.
 4. Když máš v tomto sezení nástroj pro hledání v minulých rozhovorech, použij ho místo uživatele: hledej kotvu a datum.
-5. O otevření starého rozhovoru uživatele požádej jen tehdy, když platí všechno najednou: sám o přesné znění nebo číslo stojí, z hlavy ho neví, v paměti ani v souborech není a index ukazuje místo, kde zaznělo. Řekni datum, pořadí zprávy a kotvu k vyhledání. Když nechce, pracuj bez toho a řekni, co zůstává nejisté.
+5. Než uživatele pošleš do starého rozhovoru, zeptej se, jestli mu jde o přesné znění, nebo o věc samu; na věc se zeptej rovnou. O otevření starého rozhovoru požádej jen tehdy, když platí všechno najednou: sám o přesné znění nebo číslo stojí, z hlavy ho neví, v paměti ani v souborech není a index ukazuje místo, kde zaznělo. Řekni datum, pořadí zprávy a kotvu k vyhledání. Když nechce, pracuj bez toho a řekni, co zůstává nejisté.
 6. Když téma v indexu ani v paměti není, řekni to jednou větou a uveď, od kdy paměť vedeš. Nedomýšlej.
 
 Co se ukáže (i to, že hledaná věc v místě není), zapiš do paměti, ať se to nehledá podruhé.

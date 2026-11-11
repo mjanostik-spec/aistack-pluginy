@@ -31,13 +31,14 @@ Při založení vznikají jen soubory označené ●. Ostatní založ až při p
 ```
 # Přehled
 Horká paměť: to nejdůležitější o uživateli a jeho práci.
-Založeno RRRR-MM-DD · poslední úprava RRRR-MM-DD · poslední ohlédnutí RRRR-MM-DD (nebo: zatím žádné)
+Založeno RRRR-MM-DD · poslední úprava RRRR-MM-DD · poslední úklid RRRR-MM-DD (nebo: zatím žádný)
+Učitel: příští zastavení RRRR-MM-DD · tipy: běžně | míň | žádné · zastavení: ano | na požádání
 
 ## Kdo jsem
 (role, firma, s kým pracuje. Jméno jen když ho řekl. Žádné hodnocení schopností ani povahy.)
 
 ## Na čem teď dělám
-- [název práce](prace/nazev.md): stav jednou větou. Další krok je na stránce práce.
+- [název práce](prace/nazev.md): stav jednou větou. Další krok je v plánu práce, a když plán není, na stránce práce.
 
 ## Klíčoví lidé
 - Jméno, role jednou větou. (nejvýš pět; podrobnosti v lide.md)
@@ -67,7 +68,7 @@ Co se blíží a co má uživatel udělat.
 - 2026-11-20: montáž kuchyně Hájek. (výsledek neznámý, otázka v otazky.md)
 ```
 
-Do termínů nepatří události, které se už staly (ty jsou v deníku), stav práce ani zastavení s učitelem (to vede `ucitel.md`). Prošlý termín přesuň do „Prošlé“ až po zjištění, jak dopadl; do té doby je `výsledek neznámý`.
+Datum na začátku řádku je vždy datum události, ne zápisu. Řádky řaď podle data. Co zaznělo nejistě, zapiš jako `nepotvrzeno: <co a kdy asi>` na konec oddílu. Do termínů nepatří události, které se už staly (ty jsou v deníku), stav práce ani zastavení s učitelem (to vede `ucitel.md`). Prošlý termín přesuň do „Prošlé“ až po zjištění, jak dopadl; do té doby je `výsledek neznámý`.
 
 ## Deník
 
@@ -76,4 +77,4 @@ Do termínů nepatří události, které se už staly (ty jsou v deníku), stav 
 - Uzávěrka říjen: spárováno 42 faktur, chybí 3 (seznam na stránce práce). [úloha: párování faktur]
 ```
 
-Deník říká, co se stalo, ne jak. Opakovatelnou úlohu označ štítkem `[úloha: název]`, vždy stejným; podle něj se počítá, kolikrát se dělala.
+Deník říká, co se stalo, ne jak. Práci označ štítkem `[úloha: název]` podle druhu práce (`cenová nabídka`, ne `nabídka Kobliha`), vždy stejným; podle něj se počítá, kolikrát se dělala.

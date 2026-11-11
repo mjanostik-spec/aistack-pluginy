@@ -8,9 +8,9 @@ Stav: {{rozdělané | čeká na někoho | odložené | hotové}} · založeno {{
 ## Kde to je
 - {{cesta ke složce nebo souboru; výsledky práce leží tady, ne v mozku}}
 
-## Stav a další krok
-{{Jeden odstavec, který se PŘEPISUJE, ne doplňuje. Historie patří do deníku.
-Když má práce plan.md, je tady jen odkaz na něj.}}
+## Stav
+{{Jedna až tři věty včetně dalšího kroku. PŘEPISUJE se, nedoplňuje; historie patří do deníku.
+Nevyřešené položky jsou v otazky.md, sem jen odkaz.}}
 
 ## Dohodnuto pro tuto práci
 - {{pokyny a rozhodnutí, které platí jen tady; se zdrojem a datem}}

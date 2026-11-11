@@ -35,6 +35,6 @@ Hesla, rodná čísla, mzdy a zdravotní údaje si Claude podle pravidel pluginu
 
 ## Stav
 
-Verze 1.1.0. Texty laděné zkouškou s fiktivními uživateli; v aplikaci Claude Desktop teprve ověřujeme. Změny: [ZMENY.md](ZMENY.md).
+Verze 1.2.0. Texty laděné zkouškou s fiktivními uživateli; v aplikaci Claude Desktop teprve ověřujeme. Změny: [ZMENY.md](ZMENY.md).
 
 V Claude Code: `/plugin install mozek --marketplace mjanostik-spec/aistack-pluginy`

@@ -5,14 +5,15 @@ Otázky jsou způsob, jak se paměť učí. Každá otázka ale stojí uživatel
 ## Než se zeptáš
 
 1. **Jde to zjistit?** Soubor, který není citlivý, otevři a podívej se.
-2. **Jde to odhadnout?** Když ano a chyba by nebyla drahá, použij odhad, označ ho a pokračuj. Otázku si zapiš na později.
-3. **Je to nutné k zadání?** Pak se zeptej hned, spolu s ostatními nutnými otázkami (nejvýš tři).
+2. **Jde to odhadnout s oporou v dřívější práci nebo v souborech?** Pak použij odhad, řekni ho v odpovědi a pokračuj. Ceny, marže, slevy, sazby a účetní zařazení se neodhadují nikdy.
+3. **Je to nutné k zadání?** Pak se zeptej hned, spolu s ostatními nutnými otázkami (nejvýš dvě).
 4. Jinak otázku jen zapiš do `otazky.md` a nepřerušuj.
 
 ## Kdy otázku z paměti položit
 
-- Jako „jednu věc navíc“ (viz SKILL.md) polož **jednu** otázku priority A, u výsledku práce, ne v samostatné zprávě.
-- Ostatní počkají na ohlédnutí.
+- Jako „jednu věc navíc“ (viz SKILL.md) polož **jednu** otázku priority A, u výsledku práce, ne v samostatné zprávě. Přednost má ta, která souvisí s dnešní prací; když žádná taková není, vezmi nejstarší nepoloženou.
+- Otázka A nesmí ležet nepoložená déle než dvě sezení. Otázky B počkají na ohlédnutí nebo zastavení.
+- Neptej se na věc ze staré práce uprostřed jiné, pokud na ní dnes nic nezávisí a není to nejstarší nepoložená otázka A.
 
 ## Tvar
 

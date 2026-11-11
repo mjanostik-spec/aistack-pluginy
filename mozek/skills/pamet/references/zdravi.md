@@ -7,7 +7,7 @@ Dělá se při ohlédnutí. Většinu oprav udělej sám a potichu: rejstřík, 
 3. **Odkazy.** Otevři odkazy mezi stránkami a ověř, že cíl existuje. Hledej cesty se zpětným lomítkem nebo s neviditelným znakem a přepiš je s obyčejným lomítkem.
 4. **Osiřelé stránky.** Stránky, na které nevede nic z přehledu, rejstříku ani jiné stránky.
 5. **Mapa proti disku.** Projdi připojené složky jen do hloubky názvů. Spočítej soubory a porovnej s čísly v mapě. Hledej nové a zmizelé složky a složky nad třicet dokumentů bez větve. U složky s větví nech v mapě jen jeden řádek.
-6. **Odhady.** U každého `odhad` v mapě, v lidech a ve slovníku zkontroluj, jestli už neznáš fakt (soubor jsi mezitím četl), a nahraď ho.
+6. **Odhady a zastaralé věty.** U každého `odhad`, „zatím nepotvrzeno“, „čeká na“ a záhlaví „sepsáno z názvů“ zkontroluj, jestli už neznáš fakt, a oprav to. Neříkej, že je paměť v pořádku, dokud jsi tohle neprošel.
 7. **Změněné soubory.** U výtahů ve větvích porovnej datum změny souboru s datem čtení. Novější soubory vyjmenuj a jejich výtahy ber jako podezřelé.
 8. **Staré údaje.** Fakta starší než půl roku, která se nepotvrdila: zeptej se na nejvýš tři nejdůležitější. Časově omezené údaje po skončení přeškrtni.
 9. **Rozpory.** Záznamy označené `SPOR` a dvojice, které si odporují.
@@ -17,4 +17,4 @@ Dělá se při ohlédnutí. Většinu oprav udělej sám a potichu: rejstřík, 
 13. **Přehled.** Hotové práce a to, co se měsíc nepoužilo, navrhni odsunout. Vyřiď řádky v „Čeká na souhlas“.
 14. **Citlivé údaje.** Když v paměti najdeš něco, co tam nesmí být, hned to řekni a po souhlasu odstraň úplně.
 
-Na konci zapiš do `PREHLED.md` datum posledního ohlédnutí a řekni jednou větou, v jakém stavu paměť je a kolik má stránek.
+Na konci zapiš do záhlaví `PREHLED.md` datum posledního úklidu. Když šlo o ohlédnutí s uživatelem, řekni dvěma větami, co jsi uklidil; při tichém úklidu neříkej nic.

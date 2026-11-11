@@ -9,8 +9,11 @@ Udělej s uživatelem ohlédnutí nad pamětí (složka `Claude-mozek`, skill `p
 3. **Termíny.** Prošlé bez výsledku: zeptej se, jak dopadly. Blížící se: připomeň.
 4. **Otázky.** Vyber z otevřených otázek ty nejdůležitější (priorita A, i odložené). Odpovědi zapiš jako fakta a otázky uzavři.
 5. **Kontrola zdraví.** Proveď ji podle `references/zdravi.md` skillu `pamet`.
-6. **Stavba.** Vnitřní stavbu podle `references/stavba.md` (rozdělení, archivace, plán, přehled složky, nový typ stránky) udělej sám. Uživateli nabídni jen to, co čeká na jeho souhlas v „Čeká na souhlas“ (postup, skill, poznámky v jeho složce), nejvýš dvě věci jednou větou.
-7. **Přehled.** Přepiš `PREHLED.md`, aby odpovídal dnešku a vešel se do 80 řádků, a zapiš do něj dnešní datum jako poslední ohlédnutí.
-8. **Učitel.** Když je v `ucitel.md` čas na zastavení a uživatel ho dnes neodmítl, zeptej se jednou větou, jestli chce rovnou i dva tři návrhy, co zkusit dál, nebo až příště. Jinak nic. Po „až příště“ posuň zastavení o tři dny.
+6. **Stavba.** Vnitřní stavbu podle `references/stavba.md` (rozdělení, archivace, plán, přehled složky, nový typ stránky) udělej sám a nemluv o ní.
+7. **Přehled.** Přepiš `PREHLED.md`, aby odpovídal dnešku a vešel se do 80 řádků, a zapiš do záhlaví dnešní datum jako poslední úklid.
+8. **Jedna nabídka na konec, nejvýš.** Vyber jen jednu z těchto možností, první, která platí, a jinak nic:
+   - zastavení bylo dnes už nabídnuto a uživatel ho neodmítl: ber napsané ohlédnutí jako souhlas a přejdi rovnou na zastavení, bez další otázky,
+   - je čas na zastavení, dnes nabídnuto nebylo a uživatel nemá návrhy omezené: zeptej se jednou větou, jestli chce rovnou i dva tři návrhy, co zkusit dál, nebo až příště (pak ho posuň o tři dny),
+   - v „Čeká na souhlas“ je postup nebo jiná věc pro uživatele a hlasitost to dovoluje: nabídni jednu.
 
 Do deníku zapiš jedním řádkem, že proběhlo ohlédnutí a co se změnilo. Na závěr dvě věty: co jsi uklidil a v jakém stavu paměť je.

@@ -58,4 +58,4 @@ Neopisuj obsah dokumentů. Výtah je jedna až tři věty.
 
 ## Pokračování
 
-Při dalším průzkumu téže složky začni oddílem „Stav průzkumu“ a čti jen to, co zbývá nebo co se od minula změnilo (podle data změny souboru). Nic nečti podruhé bez důvodu.
+Při dalším průzkumu téže složky začni oddílem „Stav průzkumu“ a čti jen to, co zbývá nebo co se od minula změnilo (podle data změny souboru). Soubory, které jsi už četl při práci, znovu nečti; přehled sestav z paměti a z názvů. Když uživatel řekl, že data změny nejsou spolehlivá, nejsou důvodem k novému čtení.

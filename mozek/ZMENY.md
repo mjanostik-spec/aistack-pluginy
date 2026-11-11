@@ -1,5 +1,21 @@
 # Změny pluginu Mozek
 
+## 1.2.0 (2026-11-11)
+
+Doladění podle třetí zkoušky. Tato verze sama plnou zkouškou neprošla, jen kontrolou.
+
+- **Tichý úklid.** Paměť si Claude po deseti dnech srovná sám po dokončené práci, bez ptaní. Ohlédnutí s otázkami proběhne jen na váš příkaz. Nabídka „srovnat poznámky“ zmizela.
+- **Kdo si omezil otázky nebo vypnul tipy,** tomu Claude při práci nenabízí ani zastavení. Zůstává jen upozornění na termín.
+- **Souhlas s citlivým souborem si pamatuje.** Když soubor jmenujete v zadání nebo kývnete na nabídku, která ho jmenuje, už se neptá. U opakované úlohy se neptá ani příště.
+- **Věta o zpracování souborů** zazní dřív, než Claude první soubor otevře, klidnějšími slovy a jen u osobních údajů lidí a důvěrných dokumentů, ne u běžné firemní práce.
+- **Odhaduje jen s oporou.** Ceny, marže, slevy, sazby DPH a účetní zařazení neodhaduje nikdy: napíše „k doplnění“ a zeptá se. Odhady vyjmenuje v odpovědi, do dokumentu pro další lidi dává čisté hodnoty.
+- **Nejvýš dvě otázky k zadání** místo tří. Otázka ze staré práce nepřijde uprostřed jiné.
+- **Jedna nabídka na konci ohlédnutí,** ne postup i zastavení naráz. Zastavení už nabídnuté ten den se podruhé nenabízí.
+- **Hotová práce zmizí z přehledu hned,** zastaralé „zatím nepotvrzeno“ se opraví, jakmile to práce potvrdí.
+- **Tabulky jako Excel,** ne CSV. Plán až u práce, ke které se vracíte.
+- **Oslovení bez rodu,** dokud Claude neví, s kým mluví. O tom, jak si poznámky vede, nemluví.
+- Důležitá otázka nezůstane nepoložená déle než dva rozhovory.
+
 ## 1.1.0 (2026-11-11)
 
 Cíl: víc užitku a méně vyrušování. Podle druhé zkoušky s deseti fiktivními uživateli.

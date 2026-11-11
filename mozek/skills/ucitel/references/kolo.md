@@ -2,15 +2,15 @@
 
 ## Průběh zastavení (asi tři minuty)
 
-Když zastavení následuje po ohlédnutí v témže rozhovoru, neopakuj otázky, které už padly, a drž se dvou až tří návrhů.
+Když zastavení následuje po ohlédnutí v témže rozhovoru, neopakuj otázky, které už padly, a drž se dvou až tří návrhů. Když nemáš přístup k webu, řekni to hned na začátku jednou větou a novinky nenabízej jako možnost.
 
 1. **Vyhodnocení minulého kola.** Ke každému cíli řekni jednou větou, co jsi viděl, a zeptej se, jak to vidí uživatel. Co se chytilo, zapiš do Umí. Co ne: zeptej se, jestli cíl ponechat, odložit, nebo zahodit. **Při prvním zastavení tento krok vynech** a řekni jen, že je to první kolo.
 2. **Sebehodnocení.** Polož jednu otázku s volbou z možností, která doplní, co nevidíš. Když nemáš plán Clauda z odpovědi uživatele, věnuj ji plánu. Příklad: „Jak často používáte Clauda mimo tenhle projekt? a) skoro vůbec, b) občas v chatu, c) denně.“
-3. **Novinky.** Když máš přístup k webu, otevři stránku novinek z `prirucka.md` a vezmi záznamy od minulého zastavení (při prvním od založení paměti). Vyber nejvýš jednu, která se týká práce tohoto člověka. Čti jen adresy z příručky. Bez přístupu k webu řekni jednou větou, že se k novinkám teď nedostaneš, dej adresu, kde si je uživatel přečte sám, a nic z hlavy jako novinku nepodávej.
+3. **Novinky.** Když máš přístup k webu, otevři stránku novinek z `prirucka.md` a vezmi záznamy od minulého zastavení (při prvním od založení paměti). Vyber nejvýš jednu, která se týká práce tohoto člověka. Čti jen adresy z příručky. Bez přístupu k webu tento krok vynech (řekl jsi to na začátku); když se uživatel na novinky zeptá, dej adresu, kde si je přečte sám. Nic z hlavy jako novinku nepodávej a neříkej, že žádnou nepotřebuje.
 4. **Návrh.** Podle `osnova.md`, pozorování a deníku navrhni dvě až tři oblasti, každou na věci, kterou uživatel podle deníku opravdu dělal. Patří sem i postupy, které čekají v přehledu pod „Čeká na souhlas“. U každé jedna věta, co mu to ušetří na jeho konkrétní práci. Nenavrhuj nic z oddílu Odmítnuto před datem, od kdy to jde nabídnout znovu.
 5. **Výběr.** Uživatel vybere jednu až tři, nebo navrhne vlastní. Jeho volba platí, i když bys vybral jinak. Vlastní cíl uživatele má přednost před tvými návrhy.
 6. **Cíle.** Ke každé vybrané oblasti zapiš konkrétní a ověřitelný cíl jako **chování uživatele**: „jednou se zeptáte, odkud číslo je“, „jeden přehled si necháte udělat jako stránku“, „u jednoho dopisu řeknete předem, pro koho je“. Cíl, který Claude plní sám od sebe (ověřování čísel, hlídání lhůt), cílem není. Cíle uživateli neříkej jako úkoly; řekni „zkusíme“.
-7. **Zápis.** Oprav `ucitel.md`: cíle kola, příští zastavení (dnes + 14 dní), nevybrané návrhy do Odmítnuto s poznámkou `teď ne` a datem, od kdy je lze nabídnout znovu (dnes + 14 dní). Do „Nápady na příště“ nejvýš tři věci, které uživatel sám zmínil nebo které neodmítl.
+7. **Zápis.** Oprav záhlaví `PREHLED.md` (příští zastavení, tipy) a `ucitel.md`: cíle kola, příští zastavení (dnes + 14 dní), nevybrané návrhy do Odmítnuto s poznámkou `teď ne` a datem, od kdy je lze nabídnout znovu (dnes + 14 dní). Do „Nápady na příště“ nejvýš tři věci, které uživatel sám zmínil nebo které neodmítl.
 
 Pokud uživatel nechce nic, zapiš to a posuň zastavení o 14 dní. Nepřemlouvej.
 
@@ -37,7 +37,7 @@ Co o mně učitel ví a co spolu zkoušíme. Můžu to kdykoli opravit.
   (jen to, co jsem řekl; žádné hodnocení)
 
 ## Umí
-- Práce se složkou (viděno 2026-11-10, uzávěrka říjen)
+- Práce se složkou (viděno 3×, naposledy 2026-11-25, uzávěrka listopad)
 
 ## Cíle tohoto kola (RRRR-MM-DD až RRRR-MM-DD)
 - [ ] Dvakrát si nechat ověřit čísla v přehledu. (viděno: 0×)

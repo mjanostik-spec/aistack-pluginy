@@ -1,7 +1,7 @@
 {
   "name": "mozek",
   "displayName": "Mozek",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Osobní paměť na vašem počítači a nenásilný učitel práce s Claudem. Claude si ve složce textových souborů vede, na čem pracujete, sbírá otázky, pamatuje si rozhodnutí a jednou za 14 dní navrhne, co nového vyzkoušet. Jen textové instrukce, žádný kód.",
   "author": { "name": "AI Stack", "url": "https://aistack.cz" }
 }

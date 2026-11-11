@@ -38,6 +38,7 @@ Všechny funkce v tabulce jsou podle dokumentace dostupné na placených plánec
 
 Poznámky ověřené zkušeností AI Stack:
 - Gmail konektor umí e-mail i odeslat (vyzkoušeno 2026-11-11), i když dokumentace uvádí jen čtení. Doporuč nechat u odesílání potvrzování zapnuté.
+- Konektory v adresáři jsou hlavně pro služby Googlu a Microsoftu 365 a další podle seznamu v aplikaci (Customize, Connectors). Co který umí (jen čtení, nebo i zápis), ověř na jeho stránce v dokumentaci; z hlavy to netvrď. Na firemním účtu konektory povoluje správce.
 - Když artefakt v daném prostředí vytvořit nejde, ulož přehled jako jeden samostatný soubor HTML do pracovní složky a řekni, že se otevře dvojklikem v prohlížeči.
 
 ## Co platí o souborech a cloudu
